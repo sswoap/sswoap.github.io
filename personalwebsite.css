@@ -8,6 +8,9 @@ img {
         height: 25%;
 }
 
+body {
+        margin: 0px;
+}
 
 .nav-bar {
   list-style-type: none;
@@ -21,6 +24,15 @@ img {
 
 }
 
+.body-text {
+        margin-top: 60px;
+}
+
+.header {
+        margin-left: 0px;
+        margin-right: 0px;
+
+}
 li a {
   display: inline-block;
   background-color: var(--secondary-color);

@@ -21,11 +21,11 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-
 }
 
-.body-text {
+.content {
         margin-top: 60px;
+        margin-left: 20px;
 }
 
 .header {
@@ -33,13 +33,15 @@ body {
         margin-right: 0px;
 
 }
+
+
 li a {
   display: inline-block;
   background-color: var(--secondary-color);
   float: left;
   padding: 14px 16px;
   color:var(--primary-color);
-  border-right: 1px solid var(--primary-color);
+  border-right: 2px solid var(--primary-color);
   text-decoration: none;
   font-family: "Lucida Sans Unicode";
 }

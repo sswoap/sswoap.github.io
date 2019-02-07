@@ -1,5 +1,41 @@
+:root {
+        --primary-color: white;
+        --secondary-color: black;
+}
+
 img {
         width: 25%;
         height: 25%;
 }
+
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+li a {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  float: left;
+  padding: 14px 16px;
+  color:var(--primary-color);
+  border-right: 1px solid var(--primary-color);
+  text-decoration: none;
+  font-family: "Lucida Sans Unicode";
+}
+
+
+li a:hover {
+        background-color: var(--primary-color);
+        color:var(--secondary-color);
+}
+
 
